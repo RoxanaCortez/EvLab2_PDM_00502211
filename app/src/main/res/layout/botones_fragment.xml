@@ -20,12 +20,12 @@
             android:text="next"
             android:layout_margin="8dp"/>
 
-    <Button android:id="@+id/bt_preview"
+    <Button android:id="@+id/bt_prev"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_gravity="center"
-            android:text="preview"
+            android:text="prev"
             android:layout_margin="8dp"/>
 
 
