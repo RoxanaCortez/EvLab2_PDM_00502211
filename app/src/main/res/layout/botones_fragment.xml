@@ -1,0 +1,33 @@
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragmentos.BotonesFragment">
+
+    <LinearLayout
+            android:id="@+id/contenedor_fragmento_botones"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+    <Button android:id="@+id/bt_next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="next"
+            android:layout_margin="8dp"/>
+
+    <Button android:id="@+id/bt_prev"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="prev"
+            android:layout_margin="8dp"/>
+
+
+    </LinearLayout>
+</FrameLayout>
